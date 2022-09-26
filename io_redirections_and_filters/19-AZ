@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$string" | tr AZ ce
+echo "$string" |tr Ac Ze
