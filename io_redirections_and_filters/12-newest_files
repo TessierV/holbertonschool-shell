@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -t | short -n 10
