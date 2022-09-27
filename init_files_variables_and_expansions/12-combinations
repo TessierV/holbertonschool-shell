@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [[:lower:]][[::lower::]] | sort | grep -v "oo"
+printf "%s\n"{[[:lower:]][[::lower::]]} | sort | grep -v "oo"
