@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [[:lower:]][[::lower::]] | sort | grep -not "oo"
+echo [[:lower:]][[::lower::]] | sort | grep -v "oo"
