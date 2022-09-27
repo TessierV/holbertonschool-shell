@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [:lower][:lower:] | tr '''''\n'   
+echo {a..z}{a..z} | tr '[:lower:]''[:lower:]''\n'   
