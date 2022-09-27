@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '' |tr rot13
+tr -d rot13
