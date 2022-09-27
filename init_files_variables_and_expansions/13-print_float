@@ -1,1 +1,1 @@
-printf -v $NUM "%.2f"
+printf -v $NUM "%.2f\n"
