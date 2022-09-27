@@ -1,2 +1,2 @@
 #!/bin/bash
-printf [[[:lower:]][[::lower::]]
+printf([[:lower:]][[::lower::]] | sort | grep -not "oo")
