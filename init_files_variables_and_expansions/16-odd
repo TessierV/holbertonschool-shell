@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR%2==0' 
+ls -l | head -2 | tail -1
