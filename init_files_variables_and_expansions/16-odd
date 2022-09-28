@@ -1,2 +1,2 @@
 #!/bin/bash
-grep [13579][[:space:]]
+grep [13579][[:space:]] | cat -n 
