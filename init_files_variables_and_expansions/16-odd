@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -n -e 'if ($. == 7) { print; exit(0); }'
+grep -E "[-]"
