@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | head -2 | tail -1
+perl -n -e 'if ($. == 7) { print; exit(0); }'
