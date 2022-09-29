@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((5#$(echo $WATER | tr 'water' '{0..4}')  + 5#$($STIR | tr 'stir.' '[:digit:]'))) = $bestchol | tr '[:digit:]' 'shtbeolhc'
+echo $((5#$(echo $WATER | tr 'water' '{0..4}')  + 5#$($STIR | tr 'stir.' '{0..4}'))) = $bestchol | tr '{0..8}' 'shtbeolhc'
